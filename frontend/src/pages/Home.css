@@ -1,0 +1,65 @@
+.home {
+    padding: 20px;
+  }
+  
+  .home-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .destination-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .destination-card {
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-info {
+    padding: 15px;
+  }
+  
+  .destination-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .destination-price {
+    font-weight: bold;
+  }
+  
+  .destination-duration,
+  .destination-rating {
+    margin-bottom: 5px;
+  }
+  
+  .details-button {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .details-button:hover {
+    background-color: #0056b3;
+  }
+  
